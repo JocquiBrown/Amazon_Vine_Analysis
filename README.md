@@ -10,9 +10,11 @@
   - total_votes: The total number of votes the review received
   - vine: Whether or not the review was written as part of the vine program
   - verified_purchase: Whether or not the review was on a verified purchase
-  ![Big_Data_Challenge_Screenshot_1](https://github.com/JocquiBrown/Amazon_Vine_Analysis/assets/120291854/8c1e6fbf-2869-4b5d-9221-eb16e8ca2af2)
+  
+![Big_Data_Challenge_Screenshot_1](https://github.com/JocquiBrown/Amazon_Vine_Analysis/assets/120291854/8c1e6fbf-2869-4b5d-9221-eb16e8ca2af2)
 
 - Before an analysis was performed the Vine table was filtered to remove all reviews with vote totals under 20 and all reviews where the ratio of helpful votes to total votes was less than half. This left only the reviews with significant votes that voters found helpful. This allows our analysis to be better targeted toward reviews that people actually found useful and the resulting filtered table can be seen below: 
+
 ![Big_Data_Challenge_Screenshot_2](https://github.com/JocquiBrown/Amazon_Vine_Analysis/assets/120291854/4c05e17d-5884-4f37-96be-2800ef5fdaa9)
 
 - To determine whether or not there was any bias towards favorable reviews from Vine members, the filtered table was split into Vine program reviews and Non-vine program reviews before being counted. Once the number of reviews were counted for each category, the number of 5-star reviews were also tallied for each type of review and finall a percentage of 5-star reveiws for each review type were calculated. These results are listed below:
